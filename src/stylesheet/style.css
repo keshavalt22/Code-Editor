@@ -1,0 +1,38 @@
+body {
+    background-color: beige;
+}
+
+.container {
+    width: 1200px;
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    color: grey;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-40 {
+    flex: 1 0 40%;
+    margin: 0 1rem;
+}
+
+iframe {
+    height: 100vh;
+    border: 2px solid black;
+    border-radius: 12px;
+}
